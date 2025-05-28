@@ -14,7 +14,7 @@ function HomePage() {
       <Section2 />
       <Section3 />
       <Section4 />
-      <Footer/>
+      <Footer />
     </>
   );
 }
@@ -27,7 +27,7 @@ function HeroSection() {
       <div
         className="hero h-[450px]"
         style={{
-          backgroundImage: "url(src/assets/coffe.jpg)",
+          backgroundImage: "url(/coffe.jpg)",
         }}
       >
         <div className="hero-overlay"></div>
